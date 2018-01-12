@@ -1,0 +1,96 @@
+/*
+Licensed to Thomas Day under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+*/
+
+  body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #17181F;
+    color: #2DFDB9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-width: 310px;
+    transform: translateY(-100px);
+    text-align: center;
+  }
+
+  .clock {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 4.5rem;
+    letter-spacing: 6px;
+  }
+
+
+  input{
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    padding: 12%;
+    transition: 0.5s;
+    border-radius: 2px;
+    background-color: inherit;
+    color: inherit;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: inherit;
+    text-align:center;
+  }
+
+  aside[data-toggled='true'] {
+    transform: translateX(0);
+  }
+
+  h1 {
+    font-size: 72;
+  }
+
+  p {
+    font-size: 20;
+  }
+
+  li {
+    font-size: 20;
+  }
+
+  a {
+    color: #ff1456;
+    font-size: 20;
+
+  }
+
+.main{
+	margin: 100px;
+}
