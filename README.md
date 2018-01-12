@@ -3,7 +3,7 @@
 ## What is Void?
 Void New Tab is an open-source minimalist new tab extensions for web browsers. I created void because I couldn't find any minimalist new tab pages that satisfied me.
 
-
+New Tab Page:
 ![Main page:](https://raw.githubusercontent.com/TDay1/void-newtab/master/img/main.png)
 
 
