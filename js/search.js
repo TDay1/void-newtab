@@ -175,6 +175,15 @@ function search(query){
             "https://www.amazon.com.au/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=" +
             query.replaceChars("", "+") ;
             break;
+
+            //DuckDuckGo search
+        case "-d":
+            query = query.substr(3);
+            window.location =
+            "https://duckduckgo.com/?q=" +
+            query.replaceChars("", "+") ;
+            break;
+
             //end searches
 
                 //Default to google (I'm feelin lucky)
